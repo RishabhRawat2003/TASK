@@ -36,7 +36,7 @@ function Chats() {
 
     return (
         <div className='w-full h-[89.4vh] bg-gray-800 flex flex-col md:w-[60vw] mx-auto lg:w-[50vw] xl:w-[40vw] relative'>
-            <div className='w-full h-full flex-grow p-3 scrollbar-none overflow-y-scroll'>
+            <div className='w-full h-full flex-grow p-3 scrollbar-none overflow-y-scroll element-class'>
                 {
                     chatsArr.map((user, index) => (
                         user.sender !== 'Ankit Singh'

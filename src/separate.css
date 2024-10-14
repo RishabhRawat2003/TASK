@@ -1,0 +1,10 @@
+.element-class::-webkit-scrollbar {
+    display: none;
+}
+
+.element-class {
+    scrollbar-width: none;
+    /* Firefox specific */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+}
